@@ -15,8 +15,8 @@ namespace ParallelLTSelenium
         IWebDriver driver;
 
         /* Profile - https://accounts.lambdatest.com/detail/profile */
-        String username = "user_name";
-        String accesskey = "access_key";
+        String username = Environment.GetEnvironmentVariable("LT_USERNAME") || "user_name";
+        String accesskey = Environment.GetEnvironmentVariable("LT_ACCESS_KEY") || "access_key";
         String gridURL = "@hub.lambdatest.com/wd/hub";
 
         DesiredCapabilities capabilities;
@@ -74,42 +74,11 @@ namespace ParallelLTSelenium
             Assert.IsTrue(itemName.Contains(getText));
 
             /* Perform wait to check the output */
-        System.Threading.Thread.Sleep(2000);
+            System.Threading.Thread.Sleep(2000);
 
             Console.WriteLine("LT_ToDo_Test Passed");
         }
 
-        [DataTestMethod]
-        [DataRow("chrome", "72.0", "Windows 10")]
-        [DataRow("MicrosoftEdge", "18.0", "Windows 10")]
-        [DataRow("Firefox", "70.0", "macOS High Sierra")]
-
-        [TestMethod]
-        public void Google_Test_1(String browser, String version, String os)
-        {
-            capabilities.SetCapability("browserName", browser);
-            capabilities.SetCapability("version", version);
-            capabilities.SetCapability("platform", os);
-            capabilities.SetCapability("build", "Google search (1) using MsTest in Parallel on LambdaTest");
-            capabilities.SetCapability("name", "Google search (1) using MsTest in Parallel on LambdaTest");
-
-            driver = new RemoteWebDriver(new Uri("https://" + username + ":" + accesskey + gridURL), capabilities, TimeSpan.FromSeconds(2000));
-
-            driver.Url = "https://www.google.com";
-
-            IWebElement element = driver.FindElement(By.XPath("//input[@name='q']"));
-
-            element.SendKeys("LambdaTest");
-
-            /* Submit the Search */
-            element.Submit();
-
-            /* Perform wait to check the output */
-            System.Threading.Thread.Sleep(2000);
-
-            Console.WriteLine("Google_Test Passed");
-
-        }
 
         [DataTestMethod]
         [DataRow("chrome", "72.0", "Windows 10")]
@@ -123,6 +92,7 @@ namespace ParallelLTSelenium
             capabilities.SetCapability("browserName", browser);
             capabilities.SetCapability("version", version);
             capabilities.SetCapability("platform", os);
+            capabilities.SetCapability("geoLocation", "US");
             capabilities.SetCapability("build", "Google Search (2) using MsTest in Parallel on LambdaTest");
             capabilities.SetCapability("name", "Google Search (2) using MsTest in Parallel on LambdaTest");
 
