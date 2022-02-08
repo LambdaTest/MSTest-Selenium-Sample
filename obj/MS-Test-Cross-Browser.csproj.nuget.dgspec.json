@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\source\\repos\\Mstest\\MS-Test-Cross-Browser\\MS-Test-Cross-Browser\\MS-Test-Cross-Browser.csproj": {}
+    "C:\\Users\\firda\\Desktop\\kambda\\tt\\MSTest-Selenium-Sample\\MS-Test-Cross-Browser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\source\\repos\\Mstest\\MS-Test-Cross-Browser\\MS-Test-Cross-Browser\\MS-Test-Cross-Browser.csproj": {
+    "C:\\Users\\firda\\Desktop\\kambda\\tt\\MSTest-Selenium-Sample\\MS-Test-Cross-Browser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Mstest\\MS-Test-Cross-Browser\\MS-Test-Cross-Browser\\MS-Test-Cross-Browser.csproj",
+        "projectUniqueName": "C:\\Users\\firda\\Desktop\\kambda\\tt\\MSTest-Selenium-Sample\\MS-Test-Cross-Browser.csproj",
         "projectName": "MS-Test-Cross-Browser",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Mstest\\MS-Test-Cross-Browser\\MS-Test-Cross-Browser\\MS-Test-Cross-Browser.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Mstest\\MS-Test-Cross-Browser\\MS-Test-Cross-Browser\\obj\\",
+        "projectPath": "C:\\Users\\firda\\Desktop\\kambda\\tt\\MSTest-Selenium-Sample\\MS-Test-Cross-Browser.csproj",
+        "packagesPath": "C:\\Users\\firda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\firda\\Desktop\\kambda\\tt\\MSTest-Selenium-Sample\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\firda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
