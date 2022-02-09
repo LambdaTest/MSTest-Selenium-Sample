@@ -1,0 +1,7 @@
+C:\Users\firda\Desktop\kambda\tt\MSTest-Selenium-Sample\obj\Debug\netcoreapp3.0\MS-Test-Cross-Browser.csproj.AssemblyReference.cache
+C:\Users\firda\Desktop\kambda\tt\MSTest-Selenium-Sample\obj\Debug\netcoreapp3.0\MS-Test-Cross-Browser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\firda\Desktop\kambda\tt\MSTest-Selenium-Sample\obj\Debug\netcoreapp3.0\MS-Test-Cross-Browser.AssemblyInfoInputs.cache
+C:\Users\firda\Desktop\kambda\tt\MSTest-Selenium-Sample\obj\Debug\netcoreapp3.0\MS-Test-Cross-Browser.AssemblyInfo.cs
+C:\Users\firda\Desktop\kambda\tt\MSTest-Selenium-Sample\obj\Debug\netcoreapp3.0\MS-Test-Cross-Browser.csproj.CoreCompileInputs.cache
+C:\Users\firda\Desktop\kambda\tt\MSTest-Selenium-Sample\obj\Debug\netcoreapp3.0\MS-Test-Cross-Browser.dll
+C:\Users\firda\Desktop\kambda\tt\MSTest-Selenium-Sample\obj\Debug\netcoreapp3.0\MS-Test-Cross-Browser.pdb
