@@ -18,7 +18,7 @@
 &emsp;
 &emsp;
 
-*Learn how to use MSTest framework to configure and run your Java automation testing scripts on the LambdaTest platform*
+*Learn how to use MSTest framework to configure and run your C# automation testing scripts on the LambdaTest platform*
 
 ## Table Of Contents
 
